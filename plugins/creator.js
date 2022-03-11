@@ -11,12 +11,12 @@ async function handler(m) {
   let njid2 = number2 + '@s.whatsapp.net'
   let onW2 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
 
-  let name3 = 'BOT(@⳹ ❋ཻུ۪۪YG MEMBUAT DIKABOTZ⳹ ❋ཻུ۪۪)'
+  let name3 = '@⳹ ❋ཻུ۪۪YG MEMBUAT DIKABOTZ⳹ ❋ཻུ۪۪)'
   number3 = owner[2].replace(/[^0-9]/g, '')
   let njid3 = number3 + '@s.whatsapp.net'
   let onW3 = await this.isOnWhatsApp(njid3) || { isBusiness: false }
 
-let name4 = 'BOT(@⳹ ❋ཻུ۪۪YG MEMBUAT DIKABOTZ⳹ ❋ཻུ۪۪)'
+let name4 = '@⳹ ❋ཻུ۪۪YG MEMBUAT DIKABOTZ⳹ ❋ཻུ۪۪)'
   number4 = owner[3].replace(/[^0-9]/g, '')
   let njid4 = number4 + '@s.whatsapp.net'
   let onW4 = await this.isOnWhatsApp(njid4) || { isBusiness: false }
