@@ -27,14 +27,14 @@ let handler = async (m, { text, usedPrefix, command }) => {
       ])
         .on('error', () => m.reply(`_*Error!*_`))
         .on('exit', () => {
-          conn.sendFile(m.chat, './src/Aesthetic/tahta.jpg', 'harta5.jpg', '© zifabotz2', m)
+          conn.sendFile(m.chat, './src/Aesthetic/tahta.jpg', 'harta5.jpg', '© dikabotz', m)
           fs.unlinkSync('./src/Aesthetic/tahta.jpg')
         })
     } catch (e) {
       console.log(e)
       throw eror
     }
-  } else throw `contoh:\n${usedPrefix + command} zifabot`
+  } else throw `contoh:\n${usedPrefix + command} dikabotz`
 }
 handler.help = ['harta2'].map(v => v + ' <teks>')
 handler.tags = ['tools']
