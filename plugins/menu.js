@@ -298,7 +298,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": `${_p}? tanpakategori`
                 }, {
                   "title": "[🧑‍💻] Owner",
-                  "description": "Owner zifabotz2",
+                  "description": "menu khusus Owner zifabotz2",
                   "rowId": `${_p}? owner`
                 }
               ]
