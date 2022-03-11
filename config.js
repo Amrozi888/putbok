@@ -1,46 +1,65 @@
+// Thanks For Allah
+// ROZI
+// ⳹ ❋ཻུ۪۪⸙zifabotz⳹ ❋ཻུ۪۪⸙
+// YANG SUDAH DONASI
+
 let fs = require('fs')
-let chalk = require('chalk')
-
-global.owner = ['6285828764046', '6285828764046'] // Letakan nomor kamu disini
-
+global.owner = ['6285828764046', '6285828764046','6285828530078', '6285828530078', '6285828530078'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
-  bx: 'https://bx-hunter.herokuapp.com',
-  rey: 'https://server-api-rey.herokuapp.com',
-  dhnjing: 'https://dhnjing.xyz',
   hardianto: 'https://hardianto-chan.herokuapp.com',
-  neoxr: 'https://api.neoxr.eu.org',
+  rey: 'https://server-api-rey.herokuapp.com',
+  jonaz: 'https://jonaz-api-v2.herokuapp.com',
+  neoxr: 'https://neoxr-api.herokuapp.com',
   nrtm: 'https://nurutomo.herokuapp.com',
   pencarikode: 'https://pencarikode.xyz',
-  waifupics: 'https://api.waifu.pics',
   xteam: 'https://api.xteam.xyz',
+  zahir: 'https://zahirr-web.herokuapp.com',
+  zekais: 'http://zekais-api.herokuapp.com',
   zeks: 'https://api.zeks.xyz',
+  vhtear: 'https://api.vhtear.com',
+  lolhum: 'https://api.lolhuman.xyz',
+  fxc7: 'https://fxc7-api.herokuapp.com',
+  bx: 'https://bx-hunter.herokuapp.com',
+
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
   'https://server-api-rey.herokuapp.com': 'apirey',
-  'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://pencarikode.xyz': 'pais',
-  'https://api.xteam.xyz': 'cecdb90f3153298c',
-  'https://api.zeks.xyz': 'uLWJTl4xWh2vDQod9O3LcOcQOIS',
+  'https://pencarikode.xyz': 'APIKEY',
+  'https://api.xteam.xyz': 'HIRO',
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://api.zeks.xyz': 'nyyxz-bot',
+  'https://api.lolhuman.xyz': '2d118bcd18c4e779748a84b',
+  'https://api.vhtear.com': 'sayahafiz',
+  'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
+  'https://api.justaqul.xyz': '5kbUqdG00OXelFYx',
+  'http://zekais-api.herokuapp.com': 'grqgD6pU',
+  'https://bx-hunter.herokuapp.com': 'Ikyy69',
 }
 
 // Sticker WM
-global.packname = 'zifabotz2'
-global.author = 'lawar'
+global.packname = 'ROZI'
+global.author = '⳹ ❋ཻུ۪۪⸙zifabotz⳹ ❋ཻུ۪۪⸙'
 
-global.wm = '© zifabotz2'
-global.eror = '_*ok*_'
-global.wait = '_*sabar ya zifabotz2 lagi proses😾*_'
-global.benar = '✅'
-global.salah = '❌'
-global.dikit = 'dikit lagi'
-global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
+global.wait = '「 ⏱️ 」TUNGGU MEK LAGI LOAD...'
+global.eror = '「❗」Server LAGI ERROR MEK!'
+global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
+global.watermark = '©️ ⳹ ❋ཻུ۪۪⸙zifabotz⳹ ❋ཻུ۪۪⸙' //change the watermark 
+global.image = 'https://telegra.ph/file/052ca138a613c8859756f.jpg' //change the image
+global.thumbfoto = 'https://telegra.ph/file/df3e2bcb48ffa08239393.jpg'
 
-global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+// image
+global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
+global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
+global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
+global.thanks = 'https://telegra.ph/file/01917f7782b70de8f418d.jpg'
 
+global.multiplier = 9999999 // Semakin tinggi, semakin sulit naik level
+
+let chalk = require('chalk')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
   fs.unwatchFile(file)
