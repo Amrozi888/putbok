@@ -4,7 +4,7 @@
 // YANG SUDAH DONASI
 
 let fs = require('fs')
-global.owner = ['6287833118871', '6287833118871','6287833118871', '6287833118871', '6287833118871'] // Letakan nomor kamu disini
+global.owner = ['6287833118871', '6287833118871','6285828764046', '6285828764046', '6285828764046'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
