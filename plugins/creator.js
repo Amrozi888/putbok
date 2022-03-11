@@ -1,22 +1,22 @@
 const { MessageType } = require('@adiwajshing/baileys')
 const PhoneNumber = require('awesome-phonenumber')
 async function handler(m) {
-  let name = 'PEMILIK @⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪)'
+  let name = 'PEMILIK @⳹ ❋ཻུ۪۪DIKABOTZ⳹ ❋ཻུ۪۪)'
   number = owner[0].replace(/[^0-9]/g, '')
   let njid = number + '@s.whatsapp.net'
   let onW = await this.isOnWhatsApp(njid) || { isBusiness: false }
 
-  let name2 = 'PEMILIK @⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪)'
+  let name2 = 'PEMILIK @⳹ ❋ཻུ۪۪DIKABOTZ⳹ ❋ཻུ۪۪)'
   number2 = owner[1].replace(/[^0-9]/g, '')
   let njid2 = number2 + '@s.whatsapp.net'
   let onW2 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
 
-  let name3 = 'BOT(@⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪)'
+  let name3 = 'BOT(@⳹ ❋ཻུ۪۪YG MEMBUAT DIKABOTZ⳹ ❋ཻུ۪۪)'
   number3 = owner[2].replace(/[^0-9]/g, '')
   let njid3 = number3 + '@s.whatsapp.net'
   let onW3 = await this.isOnWhatsApp(njid3) || { isBusiness: false }
 
-let name4 = 'BOT(@⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪)'
+let name4 = 'BOT(@⳹ ❋ཻུ۪۪YG MEMBUAT DIKABOTZ⳹ ❋ཻུ۪۪)'
   number4 = owner[3].replace(/[^0-9]/g, '')
   let njid4 = number4 + '@s.whatsapp.net'
   let onW4 = await this.isOnWhatsApp(njid4) || { isBusiness: false }
