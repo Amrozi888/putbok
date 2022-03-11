@@ -38,7 +38,7 @@ handler.all = async function (m, { conn, isBlocked }) {
         if (new Date() * 1 - set.status > 1000) {
             let _uptime = process.uptime() * 1000
             let uptime = conn.clockString(_uptime)
-            await this.setStatus(`Aktif selama ${uptime} | Mode: ${set.self ? 'Private' : set.group ? 'Hanya Grup' : 'Publik'} | stikerinbot oleh ariffb`).catch(_ => _)
+            await this.setStatus(`Aktif selama ${uptime} | Mode: ${set.self ? 'Private' : set.group ? 'Hanya Grup' : 'Publik'} | zifabotz2 by rozi`).catch(_ => _)
             set.status = new Date() * 1
         }
     }
