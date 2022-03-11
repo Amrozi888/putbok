@@ -9,7 +9,7 @@ handler.all = async function (m) {
 Hai, ${this.ucapan()}
 
 ${user.banned ? 'kamu dibanned' : `Ada yang bisa ${this.user.name} bantu?`}
-`.trim(), '© Putbotz', user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? ',owner' : ',?', m)
+`.trim(), '© zifabotz2', user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? ',owner' : ',?', m)
     user.pc = new Date * 1
 }
 
