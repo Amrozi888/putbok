@@ -4,7 +4,7 @@
 // YANG SUDAH DONASI
 
 let fs = require('fs')
-global.owner = ['6285828764046', '6285828764046','6285828530078', '6285828530078', '6285828530078'] // Letakan nomor kamu disini
+global.owner = ['6287833118871', '6287833118871','6287833118871', '6287833118871', '6287833118871'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -41,13 +41,13 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'ROZI'
-global.author = '⳹ ❋ཻུ۪۪⸙zifabotz⳹ ❋ཻུ۪۪⸙'
+global.packname = 'DIKA'
+global.author = '⳹ ❋ཻུ۪۪DIKABOTZ⳹ ❋ཻུ۪۪⸙'
 
-global.wait = '「 ⏱️ 」TUNGGU MEK LAGI LOAD...'
-global.eror = '「❗」Server LAGI ERROR MEK!'
+global.wait = '「 ⏱️ 」TUNGGU KAK LAGI LOAD...'
+global.eror = '「❗」Server LAGI ERROR KAK!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '©️ ⳹ ❋ཻུ۪۪⸙zifabotz⳹ ❋ཻུ۪۪⸙' //change the watermark 
+global.watermark = '©️ ⳹ ❋ཻུ۪۪DIKABOTZ⳹ ❋ཻུ۪۪⸙' //change the watermark 
 global.image = 'https://telegra.ph/file/052ca138a613c8859756f.jpg' //change the image
 global.thumbfoto = 'https://telegra.ph/file/df3e2bcb48ffa08239393.jpg'
 
