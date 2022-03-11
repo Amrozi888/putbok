@@ -191,7 +191,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┏─━─「⚜️zifabotz⚜️ 」━⬣  
 │⬡ ⏰Aktif selama ${uptime}
 ┃⬡ ⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-│⬡ ⚜️Putbotz
+│⬡ ⚜️zifabotz
 ┃
 │⬡ *${conn.blocklist.length}* Terblock
 ┃⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
@@ -208,7 +208,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
               "rows": [
                 {
                   "title": `[🧾] Semua Perintah`,
-                  "description": "Semua Fitur Putbotz",
+                  "description": "Semua Fitur zifabotz",
                   "rowId": `${_p}? all`
                 }, {
                   "title": "[🎮] Game",
@@ -246,7 +246,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": `${_p}? premium`
                 }, {
                   "title": "[🖥️] Internet",
-                  "description": "Cari Sesuatu Di Putbotz",
+                  "description": "Cari Sesuatu Di zifabotz",
                   "rowId": `${_p}? internet`
                 }, {
                   "title": "[🥷] Anonymous",
@@ -262,7 +262,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": `${_p}? downloader`
                 }, {
                   "title": "[🔧] Tools",
-                  "description": "Tools Putbotz",
+                  "description": "Tools zifabotz",
                   "rowId": `${_p}? tools`
                 }, {
                   "title": "[🎇] Fun",
@@ -270,7 +270,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": `${_p}? fun`
                 }, {
                   "title": "[📂] Database",
-                  "description": "Database Putbotz",
+                  "description": "Database zifabotz",
                   "rowId": `${_p}? database`
                 }, {
                   "title": "[📝] Vote & Absen",
@@ -286,11 +286,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": `${_p}? audio`
                 }, {
                   "title": "[🤖] Jadi Bot",
-                  "description": "Jadibot sementara di Putbotz",
+                  "description": "Jadibot sementara di zifabotz",
                   "rowId": `${_p}? jadibot`
                 }, {
                   "title": "[ℹ️] Info",
-                  "description": "Info Putbotz",
+                  "description": "Info zifabotz",
                   "rowId": `${_p}? info`
                 }, {
                   "title": "Tanpa Kategori",
@@ -388,7 +388,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'made with ❤️ by Putbotz', 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'made with ❤️ by zifabotz', 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
