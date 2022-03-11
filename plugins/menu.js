@@ -188,7 +188,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": `
-┏─━─「⚜️Putbotz⚜️ 」━⬣  
+┏─━─「⚜️zifabotz⚜️ 」━⬣  
 │⬡ ⏰Aktif selama ${uptime}
 ┃⬡ ⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 │⬡ ⚜️Putbotz
@@ -298,7 +298,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": `${_p}? tanpakategori`
                 }, {
                   "title": "[🧑‍💻] Owner",
-                  "description": "Owner Putbotz",
+                  "description": "Owner zifabotz2",
                   "rowId": `${_p}? owner`
                 }
               ]
